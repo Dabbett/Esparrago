@@ -9,7 +9,7 @@ export const Specialties = () => {
         <div className={styles.specialtySection}>
           <h3 className={styles.title}>Specialty Areas:</h3>
           <ul className={styles.specAreas}>
-            <li>Anxiety</li>
+            <li>Anxiety</li> 
             <li>Depression</li>
             <li>Family Conflict</li>
             <li>First Responder Critical Incidents</li>
