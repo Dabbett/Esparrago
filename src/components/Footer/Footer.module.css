@@ -1,0 +1,22 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(58, 58, 58); */
+    background-color: var(--color-secondary);
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.logo2 {
+    height: 100px;
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        flex-direction: column;
+    }
+}

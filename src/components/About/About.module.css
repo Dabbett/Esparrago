@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto&family=Rubik+Pixels&family=Source+Code+Pro:wght@300&display=swap');
+@import "../../vars.css";
+
+.about {
+    z-index: 1;
+    padding-bottom: 70px;
+}
+
+.announcement {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Explora', serif;
+    font-size: 70px;
+    letter-spacing: 1.5px;
+    /* z-index: 2; */
+    margin-top: 100px;
+    margin-left: 10%;
+    text-shadow: 1px 1px 1px rgb(242, 236, 236);
+    opacity: 0;
+    animation: slideIn 4s ease-out forwards 1;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(700px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(600px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutImage {
+    width: 35%;
+    z-index: 1;
+    border-radius:  0 140px 140px 140px ;
+    opacity: 0;
+    animation: slideInRight 10s ease-out forwards 1;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-700px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-600px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.bio {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-top: 2px;
+    padding: 0px 30px;
+    background-size: 0 100%;
+   
+}
+.item {
+    font-size: 1rem;
+    list-style: none;
+    background-color: linear-gradient(90deg rgb(4, 78, 196) 0%, rgb(215, 17, 17)100%);
+    background-size: 0 100%;
+    
+}
+.blurb:hover {
+    background-size: 100% 100%;
+}
+
+.aboutIcons {
+    width: 19%;
+}
+
+@media (min-width: 831px) and (max-width: 1791px) {
+
+    .announcement {
+        margin-top: 120px;
+        margin-left: 44px;
+    }
+    .bio {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .about {
+        padding: 0px;
+    }
+    .announcement {
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .aboutImage {
+        padding-top: 10px;
+    }
+
+    .bio {
+        gap: 0px;
+    }
+    .content {
+        flex-direction: column-reverse;
+    }
+    .aboutImage {
+        margin-bottom: 20px;
+    }
+    .item {
+        margin: 10px 0px;
+    }
+
+}
