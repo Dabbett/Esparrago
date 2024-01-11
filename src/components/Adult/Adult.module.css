@@ -50,6 +50,7 @@ h1 {
 @media screen and (max-width: 830px) {
     .container {
         background-color: var(--color-secondary);
+        overflow-x: hidden; /* This can prevent horizontal overflow */
     }
     .adultP {
         font-size: 15px;
