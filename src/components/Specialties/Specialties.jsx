@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./specialties.module.css";
+import styles from "./Specialties.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Specialties = () => {

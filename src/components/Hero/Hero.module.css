@@ -68,9 +68,11 @@
     text-shadow: var(--color-text-secondary);
     color: white;
     background: linear-gradient(90deg, rgba(159, 152, 152, 0.466) 90%, rgba(245, 241, 241, 0.567) 120%);
+    background-clip: text;
     -webkit-background-clip: text;
 
 }
+
 /* 
 .heroImg {
     width: 30%;
