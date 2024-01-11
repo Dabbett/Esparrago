@@ -53,7 +53,7 @@
     z-index: 1;
     border-radius:  0 140px 140px 140px ;
     opacity: 0;
-    animation: slideInRight 10s ease-out forwards 1;
+    animation: slideInRight 7s ease-out forwards 1;
 }
 
 @keyframes slideIn {

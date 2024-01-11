@@ -2,12 +2,12 @@
     /*colors*/
     --color-text:rgb(107,101,74);
     --color-primary: rgb(97,153,111);
-    --color-secondary: rgb(244, 239, 231);
+    --color-secondary: rgb(166, 169, 148);
     --color-dark: #0b2447;
     --color-bg: rgba(244, 234, 219, 1);
     --color-text-secondary: #464c56;
-    --color-bg-secondary:  rgba(244, 234, 219, 1);
-    --color-bg-tertiary: rgba(214, 201, 183, 0.083);
+    --color-bg-secondary:  rgb(235, 229, 219);
+    --color-bg-tertiary: rgba(214, 201, 183, 0.259);
     
     /*fonts*/
     --font-roboto: "Roboto flex";

@@ -39,7 +39,7 @@ h1 {
     font-family: var(--font-roboto);
     cursor: pointer;
     margin-bottom: 20px;
-    
+    box-shadow: 1px 5px 10px rgb(185, 184, 184);
 }
 
 .bookNow:clicked {
@@ -50,5 +50,8 @@ h1 {
 @media screen and (max-width: 830px) {
     .container {
         background-color: var(--color-secondary);
+    }
+    .adultP {
+        font-size: 15px;
     }
 }

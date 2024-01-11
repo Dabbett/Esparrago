@@ -7,6 +7,7 @@ export const Hero = () => {
 
     return (
       <section className={styles.container}>
+        <img src={getImageUrl("about/zenStones.jpg")} className={styles.stones} alt="zenStones" />
         {/* <div className={styles.content}>
           <div className={styles.group}>
             <h2 className={styles.title1}>

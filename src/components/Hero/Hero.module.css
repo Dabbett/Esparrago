@@ -7,28 +7,35 @@
     justify-content: space-between;
     margin-top: 0px;
     z-index: 1;
-    background-image: url("../assets/about/zenStones.jpg");
+    /* background-image: url("../../assets/about/zenStones.jpg"); */
     background-position: center;
     width: 100%;
     height: 400px;
     background-size: cover;
-    animation: changeBackground 1s linear 1; 
-    
+    /* animation: changeBackground 1s linear 1; 
+     */
 }
 
-@keyframes changeBackground {
+.stones {
+    
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+/* @keyframes changeBackground {
     
     0% {
-        background-image: url("../assets/about/zenStones.jpg");
+        background-image: url("../../assets/about/zenStones.jpg");
         height: 0%;
         opacity: 0;
     }
     100% {
-        background-image: url("../assets/about/zenStones.jpg");
-
+        background-image: url("../../assets/about/zenStones.jpg");
+        opacity: 1;
     }
 
-}
+} */
 
 .content {
     display: flex;
