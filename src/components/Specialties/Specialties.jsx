@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./specialties.module.css";
 import { getImageUrl } from "../../utils";
 
-export const specialties = () => {
+export const Specialties = () => {
   return (
     <section className={styles.inform}>
       <section className={styles.lists}>

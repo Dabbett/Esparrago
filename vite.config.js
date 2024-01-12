@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    assetsDir: "assets", // Adjust this to your asset directory
+    assetsDir: "assets",
   },
   css: {
     modules: {
