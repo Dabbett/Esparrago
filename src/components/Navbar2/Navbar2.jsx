@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import styles from "./Navbar.module.css";
+import styles from "../Navbar/Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 
-export const Navbar = () => {
+export const Navbar2 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
     return (
       <nav className={styles.navbar}>
@@ -27,22 +27,10 @@ export const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             <li>
-              <a href="/#About" onClick={() => scrollToSection("#About")}>
-                ABOUT
-              </a>
+              <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/#Adult" onClick={() => scrollToSection("#Adult")}>
-                ADULTS
-              </a>
-            </li>
-            <li>
-              <a href="/#Child" onClick={() => scrollToSection("#Child")}>
-                KIDS
-              </a>
-            </li>
-            <li>
-              <a href="/EMDRIPage">EMDR INTENSIVES</a>
+              <a href="#EMDRIPage">EMDR INTENSIVES</a>
             </li>
             <li>
               <a href="/ResourcePage">RESOURCES</a>

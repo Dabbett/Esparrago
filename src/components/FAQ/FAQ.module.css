@@ -1,0 +1,22 @@
+@import "../../vars.css";
+
+.FAQ  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    animation: fadeIn 2s 0s forwards 1;
+    
+}
+
+.FAQ  h1 {
+    text-decoration: underline;
+}
+
+.question {
+    font-weight: 900;
+}
+
+.answer {
+    font-weight: 100;
+}

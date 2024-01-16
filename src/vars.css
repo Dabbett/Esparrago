@@ -38,3 +38,8 @@ p {
     font-family: var(--font-roboto);
 }
 /* --color-bg: rgba(31, 75, 92, 0.756); */
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

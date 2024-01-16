@@ -1,24 +1,24 @@
-import { Hero } from "./components/Hero/Hero";
-import styles from "./App.module.css";
-import { Navbar } from "./components/Navbar/Navbar";
-import { About } from "./components/About/About";
-import { Specialties } from "./components/Specialties/Specialties";
-import { Adult } from "./components/Adult/Adult";
-import { Pediatric } from "./components/Pediatric/Pediatric";
-import { Footer } from "./components/Footer/Footer"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home';
+import { FAQPage } from './pages/FAQPage';
+import { ContactPage } from './pages/ContactPage';
+import { ResourcePage } from './pages/ResourcePage';
 
 
 function App() {
-  return <div className={styles.App}>
-    <Navbar />
-    <Hero />
-    <About /> 
-    <Specialties />
-    <Adult />
-    <Pediatric />
-
-    <Footer />
-  </div>
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/faqpage" element={<FAQPage />} />
+          <Route path="/contactpage" element={<ContactPage />} />
+          <Route path="/resourcepage" element={<ResourcePage />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 
