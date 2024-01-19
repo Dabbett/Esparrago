@@ -18,10 +18,15 @@
     color: var(--color-text-secondary);
 }
 
-.categories {
-   
-   
-   
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.stones2 {
+    width: 30%;
+    object-fit: cover;
 }
 
 .category {
