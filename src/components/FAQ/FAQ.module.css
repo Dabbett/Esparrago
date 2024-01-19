@@ -6,7 +6,8 @@
     align-items: center;
     color: black;
     animation: fadeIn 2s 0s forwards 1;
-    margin: 4% 5%;
+    padding: 4% 5%;
+    background-color: var(--color-bg);
 }
 
 .FAQ  h1 {
@@ -30,4 +31,12 @@
 
 .EMDRlink {
     font-family: var(--font-roboto);
+}
+
+.secondSection {
+    background-color: var(--color-bg-tertiary);
+}
+
+.FAQ a {
+    margin-left: 3px;
 }

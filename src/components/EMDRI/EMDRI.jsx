@@ -45,11 +45,11 @@ export const EMDRI = () => {
             </button>
           </a>
         </div>
-        <div>
+        <div className={styles.footer}>
           <p>
             If you're still not ready, or to read more about EMDR and recieve
-            other helpful mental health resources, visit our{" "}
-            <a href="/ResourcePage">Resources Page</a> or our{" "}
+            other helpful mental health resources, visit our
+            <a href="/ResourcePage">Resources Page</a> or our 
             <a href="/FAQPage">FAQ Page</a>.
           </p>
         </div>

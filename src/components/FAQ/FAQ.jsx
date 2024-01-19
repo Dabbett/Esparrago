@@ -6,18 +6,53 @@ export const FAQ = () => {
     return (
       <section className={styles.FAQ}>
         <h1>Frequently Asked Questions</h1>
-        <ul>
+        <ul className={styles.firstSection}>
+          <li className={styles.qa}>
+            <h3 className={styles.question}>Do you accept insurance?</h3>
+            <p className={styles.answer}>
+              I am in network for clients with Aetna, Blue Cross and Blue Shield
+              of North Carolina, Blue Cross Blue Shield of Massachusetts, Cigna,
+              Oscar Health, Oxford, and United Healthcare. I also accept self
+              pay. Please note that coverage varies for
+              <a href="/FAQPage/#EMDRIQA">EMDRI</a>.
+            </p>
+          </li>
+          <li className={styles.qa}>
+            <h3 className={styles.question}>
+              Are your appointments in-person or virtual?
+            </h3>
+            <p className={styles.answer}>
+              For Adults: I offer appointments exclusively via telehealth at
+              this time. Sessions are conducted using HIPAA compliant software.
+              <br />
+              For Children: I offer appointments exclusively in-person at my
+              Wilmington, NC. office at this time.
+            </p>
+          </li>
+          <li className={styles.qa}>
+            <h3 className={styles.question}>
+              What is your cancellation policy?
+            </h3>
+            <p className={styles.answer}>
+              If you're unable to attend a session please let me know 48 hours
+              in advance. For clients who cancel within 48 hours, there will be
+              a 50% cancellation fee. For clients canceling within 24 hours or
+              for no-shows, the full session fee will charged to your card on
+              file.
+            </p>
+          </li>
+        </ul>
+        <ul className={styles.secondSection}>
           <li className={styles.qa}>
             <h3 className={styles.question}>What is EMDR?</h3>
             <p className={styles.answer}>
-              From{" "}
+              From
               <a
                 href="https://connectemdr.com/what-is-emdr/"
                 className={styles.EMDRlink}
               >
-                {" "}
                 Connect EMDR
-              </a>{" "}
+              </a>
               : EMDR is an evidence-based treatment for children, teens, and
               adults. It simply activates the brain’s natural, adaptive
               information processing system so that old experiences and
@@ -62,6 +97,19 @@ export const FAQ = () => {
               suitable for this type of session, the client must not be
               experiencing thoughts of self-harm, experiencing suicidal
               ideation, or undergoing a mental health crisis.
+            </p>
+          </li>
+          <li className={styles.qa}>
+            <h3 className={styles.question} id="EMDRIQA">
+              What is the Cost of therapy or EMDRI?
+            </h3>
+            <p className={styles.answer}>
+              The initial assessment leading up to the EMDR Intensive may be
+              covered by insurance but EMDR intensives are not covered by
+              insurances. Since this is considered "private pay" I am not constrained by the
+              limits of insurance policies, including session limits. This
+              allows me to tailor treatment to meet your needs! Your
+              FREE Consultation will help determine the end cost.
             </p>
           </li>
         </ul>
