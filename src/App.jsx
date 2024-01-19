@@ -3,6 +3,8 @@ import { Home } from './pages/Home';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
 import { ResourcePage } from './pages/ResourcePage';
+import { EMDRIPage } from './pages/EMDRIPage';
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
           <Route path="/faqpage" element={<FAQPage />} />
           <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/resourcepage" element={<ResourcePage />} />
+          <Route path="/emdripage" element={<EMDRIPage />} />
         </Routes>
       </BrowserRouter>
     </div>

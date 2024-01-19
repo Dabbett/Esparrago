@@ -6,7 +6,7 @@ export function ResourcePage() {
   return (
     <div className={styles.App}>
       <Navbar2 />
-
+      <hr />
       <Resources />
     </div>
   );

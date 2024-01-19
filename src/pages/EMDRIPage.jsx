@@ -6,6 +6,7 @@ export function EMDRIPage() {
   return (
     <div className={styles.App}>
       <Navbar2 />
+      <hr />
       <EMDRI />
     </div>
   );

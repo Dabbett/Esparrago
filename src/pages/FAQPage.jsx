@@ -6,7 +6,7 @@ export function FAQPage() {
   return (
     <div className={styles.App}>
       <Navbar2 />
-      
+      <hr />
       <FAQ />
     </div>
   );

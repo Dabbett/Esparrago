@@ -1,0 +1,38 @@
+@import "../../vars.css";
+
+.EMDRIsection {
+    background-image: url("../../assets/emdr/sandWave.jpg");
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.EMDRIsection .title {
+    align-self: center;
+    margin: 20px;
+    
+}
+.topDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topDiv p {
+    padding: 10px;
+    margin: 10px 10%;
+    background-color: var(--color-bg-secondary);
+
+}
+.therapistOffice {
+    width: 50%;
+    
+}
+
+.process {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--color-bg-secondary);
+}
