@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "./EMDRI.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-router-dom";
+
 
 export const EMDRI = () => {
     return (
@@ -12,8 +14,8 @@ export const EMDRI = () => {
             Eye Movement Desensitization and Reprocessing (EMDR) is a
             psychotherapy treatment that is designed to alleviate the distress
             associated with traumatic memories. It can be performed in a series
-            of regular 1 hour sessions, or as a 3-6 hour Intensive. To decide what is
-            right for you, schedule a Complimentary Phone Consultation.
+            of regular 1 hour sessions, or as a 3-6 hour Intensive. To decide
+            what is right for you, schedule a Complimentary Phone Consultation.
           </p>
           <img
             src="../assets/hero/therapistOffice.jpg"
@@ -49,7 +51,7 @@ export const EMDRI = () => {
           <p>
             If you're still not ready, or to read more about EMDR and recieve
             other helpful mental health resources, visit our
-            <a href="/ResourcePage">Resources Page</a> or our 
+            <Link to="/ResourcePage">Resources Page</Link> or our
             <a href="/FAQPage">FAQ Page</a>.
           </p>
         </div>
