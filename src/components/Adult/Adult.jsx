@@ -20,7 +20,7 @@ export const Adult = () => {
         <br />
         Offering Virtual Appointments for Adults in NC and NY
       </p>
-      <a href="https://headway.co/providers/heidi-esparrago-zeppelin?utm_source=pem&utm_medium=direct_link&utm_campaign=46163">
+      <a href="https://heidi-esparrago.clientsecure.me/">
         <button className={styles.bookNow} id="adultButton">
           Book Now
         </button>

@@ -41,7 +41,7 @@ export const EMDRI = () => {
           </div>
         </div>
         <div className={styles.bottomSection}>
-          <a href="https://headway.co/providers/heidi-esparrago-zeppelin?utm_source=pem&utm_medium=direct_link&utm_campaign=46163">
+          <a href="https://heidi-esparrago.clientsecure.me/">
             <button className={styles.bookNowEMDR} id="adultButton">
               Click here to book a Complimentary Phone Consultation
             </button>
