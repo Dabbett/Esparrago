@@ -3,6 +3,13 @@ import styles from "./Resources.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Resources = () => {
+  // const asdf = [
+  //   {title:" "},
+  //   {},
+  //   {},
+  //   {},
+  //   {},
+  // ]
   return (
     <section className={styles.resources}>
       <div className={styles.title}>
