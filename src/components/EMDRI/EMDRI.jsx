@@ -18,9 +18,9 @@ export const EMDRI = () => {
             what is right for you, schedule a Complimentary Phone Consultation.
           </p>
           <img
-            src="../assets/hero/therapistOffice.jpg"
+            src={getImageUrl("hero/TherapistOffice.jpg")}
             className={styles.therapistOffice}
-            alt=""
+            alt="therapist office"
           />
           <div className={styles.process}>
             <h3>EMDR Intensive Process:</h3>
