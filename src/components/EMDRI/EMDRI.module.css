@@ -2,7 +2,7 @@
 
 
 .EMDRIsection {
-    background-image: url("./assets/about/beige-abstract.jpg");
+    background-image: url("/assets/about/beige-abstract.jpg");
 
     background-size: cover;
     display: flex;
