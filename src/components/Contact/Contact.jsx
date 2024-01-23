@@ -27,8 +27,8 @@ export const Contact = () => {
         <div className={styles.form}>
           <header>Contact Me</header>
           <form id="form" className={styles.topBefore} onSubmit={sendEmail}>
-            <input id="name" type="text" placeholder="NAME" name="From_name"/>
-            <input id="email" type="email" placeholder="E-MAIL" name="email_from"/>
+            <input id="name" type="text" placeholder="NAME" name="from_name"/>
+            <input id="email" type="email" placeholder="E-MAIL" name="from_email"/>
             <textarea id="message" placeholder="MESSAGE" name="message"></textarea>
             <button type="submit">GO!</button>
           </form>
