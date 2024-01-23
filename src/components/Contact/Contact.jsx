@@ -13,8 +13,8 @@ export const Contact = () => {
     emailjs.sendForm(
       "service_1jqnnfi",
       "template_e4gthbu",
-      // "from_name",
-      // "from_email",
+      "from_name",
+      "from_email",
       e.target,
       "RagmeypRFbpOVDT4i"
     );
@@ -30,7 +30,7 @@ export const Contact = () => {
             <input id="name" type="text" placeholder="NAME" name="from_name"/>
             <input id="email" type="email" placeholder="E-MAIL" name="from_email"/>
             <textarea id="message" placeholder="MESSAGE" name="message"></textarea>
-            <button type="submit">GO!</button>
+            <button classname={styles.submit} type="submit">Submit</button>
           </form>
         </div>
       </div>

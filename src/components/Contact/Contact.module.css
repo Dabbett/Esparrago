@@ -80,6 +80,11 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
 content {
@@ -102,6 +107,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .topBefore {
@@ -125,7 +131,7 @@ input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   width: 470px;
-  height: 50px;
+  height: 45px;
   padding: 0px 15px 0px 15px;
   
   background: transparent;
@@ -193,4 +199,18 @@ textarea:hover {
 
 #submit:hover {
   color: #e2dedb;
+}
+
+@media screen and (max-width: 800px) {
+  
+  input {
+    width: 80vw;
+    margin: 0;
+
+  }
+  textarea {
+    width: 80vw;
+    margin: 0;
+    
+  }
 }
