@@ -7,19 +7,22 @@ import emailjs from "@emailjs/browser";
 export const Contact = () => {
 
   const sendEmail = (e) => {
-    
-    alert("Youre E-mail had been submitted!");
+    e.preventDefault();
+
 
     emailjs.sendForm(
       "service_1jqnnfi",
       "template_e4gthbu",
-      "from_name",
-      "from_email",
-      "from_location",
       e.target,
-      "RagmeypRFbpOVDT4i"
-    );
-  }
+      "RagmeypRFbpOVDT4i")
+    
+      .then((result) => {
+          alert("Youre E-mail had been submitted!");;
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
     <section className={styles.contact}>
