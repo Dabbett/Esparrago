@@ -130,7 +130,7 @@ header {
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 470px;
+  max-width: 470px;
   height: 45px;
   padding: 0px 15px 0px 15px;
   
@@ -180,26 +180,29 @@ textarea:hover {
   color: #e2dedb;
 }
 
-#submit {
-  width: 502px;
+
+.submit {
+  font-family: var(--font-roboto);
+  max-width: 502px;
   
-  padding: 0;
-  margin: 15px 0px 0px 0px;
+  padding: 8px;
   
-  font-family: 'Lato', sans-serif;
+  
+  font-family: var(--font-roboto);
   font-size: 0.875em;
-  color: #b3aca7;
-  
+  color:black;
+  background-color: #726659;
   outline:none;
   cursor: pointer;
   
   border: solid 1px #b3aca7;
   border-top: none;
-  
+
 }
 
-#submit:hover {
-  color: #e2dedb;
+.submit:hover {
+  background-color: #726659;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
