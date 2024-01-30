@@ -39,6 +39,11 @@
     margin-bottom: 20px;
     
 }
+.bookNow:hover {
+    background-color: var(--color-bg-tertiary);
+    
+}
+
 
 .bookNow:clicked {
     transform: scale(2.0);

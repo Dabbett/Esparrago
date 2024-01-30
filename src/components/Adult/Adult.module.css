@@ -42,6 +42,10 @@ h1 {
     box-shadow: 1px 5px 10px rgb(185, 184, 184);
 }
 
+.bookNow:hover {
+    background-color: var(--color-bg-tertiary);
+}
+
 .bookNow:clicked {
     transform: scale(2.0);
 }

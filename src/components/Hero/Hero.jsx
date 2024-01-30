@@ -8,30 +8,7 @@ export const Hero = () => {
     return (
       <section className={styles.container}>
         <img src={getImageUrl("about/zenStones.jpg")} className={styles.stones} alt="zenStones" />
-        {/* <div className={styles.content}>
-          <div className={styles.group}>
-            <h2 className={styles.title1}>
-              Children in NC: <br />To book an in-person apointment for your child in Wilmington
-              <button
-                href="https://parentlikeitmatters.clientsecure.me/"
-                className={styles.bookNow}
-                id="childButton"
-              >
-                Book Here
-              </button>
-            </h2>
-          </div>
-          <div className={styles.group}>
-            <h2 className={styles.title1}>
-              Adults in NC or NY: <br /> To book your virtual appointment or free initial consultation for an adult
-              <button href="" className={styles.bookNow} id="adultButton">
-                Book Here
-              </button>
-            </h2>
-          </div>
-        </div> */}
-        {/* <div className={styles.topBlur} />
-        <div className={styles.bottomBlur} /> */}
+        
       </section>
     );
 };

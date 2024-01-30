@@ -26,16 +26,16 @@ export const EMDRI = () => {
             <h3>EMDR Intensive Process:</h3>
             <ul className={styles.numberedList}>
               <li className={styles.numberedItem}>
-                Complimentary phone consultation (30 minutes)
+                Complimentary phone consultation <br />(30 minutes)
               </li>
               <li className={styles.numberedItem}>
-                Pre-Intensive Interview Assessment (1 hour)
+                Pre-Intensive Interview Assessment <br />(1 hour)
               </li>
               <li className={styles.numberedItem}>
-                EMDR Intensive Sessions (3-6 Hours){" "}
+                EMDR Intensive Sessions <br />(3-6 Hours)
               </li>
               <li className={styles.numberedItem}>
-                Post Intensive Follow Up (1 hour)
+                Post Intensive Follow Up <br />(1 hour)
               </li>
             </ul>
           </div>
@@ -43,7 +43,7 @@ export const EMDRI = () => {
         <div className={styles.bottomSection}>
           <a href="https://heidi-esparrago.clientsecure.me/">
             <button className={styles.bookNowEMDR} id="adultButton">
-              Click here to book a Complimentary Phone Consultation
+              Book a Complimentary Phone Consultation
             </button>
           </a>
         </div>
