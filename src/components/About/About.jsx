@@ -9,15 +9,18 @@ export const About = () => {
   return (
     <section className={styles.about} id="About">
       <div className={styles.content}>
-        <h2 className={styles.announcement}>Welcome, I'm Heidi</h2>
+        <h2 className={styles.announcement}>About Me</h2>
       </div>
       <div className={styles.content}>
         <ul className={styles.bio}>
           <li className={styles.blurb}>
             <p className={styles.item}>
-              I'd love the opportunity to meet you if you are looking to heal
-              and better understand what you are feeling or experiencing day to
-              day.
+              Welcome! I am Heidi, a Licensed Clinical Social Worker (LCSW) &
+              Licensed Clinical Addiction Specialist (LCAS). I have been
+              practicing in the field of clinical therapy for over a decade in
+              various settings with children, adolescents, adults & families. I
+              specialize in working with clients that have experienced trauma
+              and I value supporting my clients in their healing journeys.
             </p>
           </li>
           <li className={styles.blurb}>
@@ -27,15 +30,17 @@ export const About = () => {
               alt="family icon"
             />
             <p className={styles.item}>
-              I am particularly passionate about working with children &
-              families, as well as supporting professionals who are moving
-              through tough transitions or have experienced painful events.
+              I am originally from New York where I received my Master’s Degree
+              in Social Work in 2012, and relocated to North Carolina in 2015. I
+              am certified in Eye Movement Desensitization and Reprocessing
+              (EMDR) and take a trauma-informed approach with clients.
             </p>
           </li>
           <li className={styles.blurb}>
             <p className={styles.item}>
-              I'd love to partner with you to help alleviate some of the
-              pressure.
+              I strive to create a warm and welcoming environment where clients
+              can feel comfortable sharing their true experiences. I'd love to
+              learn about what you are going through and how I can help.
             </p>
             <img
               src={getImageUrl("about/partner.png")}
@@ -43,28 +48,20 @@ export const About = () => {
               alt="partner icon"
             />
           </li>
-          {/* <li className={styles.blurb}>
-            I believe in trauma treatment & healing through corrective
-            experiences. I prefer to use methods designed to alleviate the
-            distress associated with painful memories. This includes Eye
-            Movement Desensitization & Reprocessing (EMDR), Experiential
-            Therapy, and Psychodrama. I can help you understand your present
-            experiences & help create a plan for healing.
-          </li>
-          <li className={styles.blurb}>
-            I am here to help normalize the experiences you may be having as a
-            result of what you have been through. I enjoy educating throughout
-            this process because I believe that increased understanding in
-            itself can provide a ton of relief. I'm happy to answer ANY
-            questions you might have. I'd love to learn about what you are going
-            through and how I can help. Let's get started...
-          </li> */}
         </ul>
         <img
           src={getImageUrl("about/headshot.jpg")}
           className={styles.aboutImage}
           alt="Headshot"
         />
+      </div>
+      <div className={styles.button}>
+        
+          <a href="/ContactPage">
+            <button className={styles.contactMe} id="contactMeButton">
+              Contact Me
+            </button>
+          </a>
       </div>
     </section>
   );

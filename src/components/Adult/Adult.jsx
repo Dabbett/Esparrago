@@ -15,7 +15,8 @@ export const Adult = () => {
         I believe in healing through corrective experiences and prefer to use
         methods that are designed to alleviate the distress associated with
         painful memories. This includes Eye Movement Desensitization &
-        Reprocessing (EMDR) and other Experiential Therapy modalities.
+        Reprocessing (EMDR) and other Experiential Therapy modalities that are
+        proven to be equally as effective in a virtual setting.
         <br />
         <br />
         Offering Virtual Appointments for Adults in NC and NY
