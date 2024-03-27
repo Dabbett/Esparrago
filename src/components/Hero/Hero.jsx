@@ -8,7 +8,7 @@ export const Hero = () => {
     return (
       <section className={styles.container}>
         <img
-        src={getImageUrl("about/zenStones.jpg")} 
+        src="assets/about/zenStones.jpg"
         className={styles.stones}
         alt="zenStones"
       />
