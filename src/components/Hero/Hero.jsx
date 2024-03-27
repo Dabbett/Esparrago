@@ -7,8 +7,11 @@ export const Hero = () => {
 
     return (
       <section className={styles.container}>
-        <img src={getImageUrl("about/zenStones.jpg")} className={styles.stones} alt="zenStones" />
-        
+        <img
+        src={getImageUrl("about/zenStones.jpg")}  {"about/LQzenStones.jpg"}
+        className={styles.stones}
+        alt="zenStones"
+      />
       </section>
     );
 };
