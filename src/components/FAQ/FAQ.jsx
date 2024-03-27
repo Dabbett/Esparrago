@@ -144,9 +144,11 @@ export const FAQ = () => {
           </li>
           
         </ul>
-        <h4 className={styles.footerComment}> If you'd like more informaton or you're ready to start healing now: <button className={styles.contactMe} id="contactMeButton">
+        <h4 className={styles.footerComment}> If you'd like more informaton or you're ready to start healing now: <a href="/ContactPage">
+            <button className={styles.contactMe} id="contactMeButton">
               Contact Me
-            </button></h4>
+            </button>
+          </a></h4>
       </section>
     );
 };
