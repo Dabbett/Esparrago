@@ -10,11 +10,42 @@ export const FAQ = () => {
           <li className={styles.qa}>
             <h3 className={styles.question}>Do you accept insurance?</h3>
             <p className={styles.answer}>
-              I am in network for clients with Aetna, Blue Cross and Blue Shield
-              of North Carolina, Blue Cross Blue Shield of Massachusetts, Cigna,
-              Oscar Health, Oxford, and United Healthcare. I also accept self
-              pay. Please note that coverage varies for
-              <a href="/FAQPage/#EMDRIQA">EMDRI</a>.
+               I am in network with the following insurance companies:
+               (*Please note that coverage varies for
+              <a href="/FAQPage/#EMDRIQA">EMDRI</a>.)
+            </p>
+            <h4 className={styles.subheading}> North Carolina: </h4>
+            <p className={styles.answer}>
+              <ul className={styles.insuranceList}>
+                <li className={styles.insuranceListItem}>Aetna</li>
+                <li className={styles.insuranceListItem}>Blue Cross and Blue Shield
+              of North Carolina</li>
+                <li className={styles.insuranceListItem}>Blue Cross Blue Shield of Massachusetts</li>
+                <li className={styles.insuranceListItem}>Cigna</li>
+                <li className={styles.insuranceListItem}>Horizon Blue Cross Blue Shield of New Jersey</li>
+                <li className={styles.insuranceListItem}>Optum</li>
+                <li className={styles.insuranceListItem}>Oscar Health</li>
+                <li className={styles.insuranceListItem}>Oxford</li>
+                <li className={styles.insuranceListItem}>United Healthcare</li>
+              </ul>
+               
+            </p>
+            <h4 className={styles.subheading}> New York: </h4>
+            <p className={styles.answer}>
+            <ul className={styles.insuranceList}>
+                <li className={styles.insuranceListItem}>Aetna</li>
+                <li className={styles.insuranceListItem}>Cigna</li>
+                <li className={styles.insuranceListItem}>Optum</li>
+                <li className={styles.insuranceListItem}>UHC</li>
+                <li className={styles.insuranceListItem}>UMR</li>
+                <li className={styles.insuranceListItem}>(Coming Soon) BCBS of Massachusetts</li>
+                <li className={styles.insuranceListItem}>(Coming Soon) Empire BCBS</li>
+              </ul>
+            </p>
+            <p className={styles.answer}>
+              <br></br>
+             **I also accept self pay and can provide a superbill for Out of Network reimbursement.**
+              
             </p>
           </li>
           <li className={styles.qa}>
@@ -29,21 +60,20 @@ export const FAQ = () => {
               Wilmington, NC. office at this time.
             </p>
           </li>
-          <li className={styles.qa}>
+          {/* <li className={styles.qa}>
+          <h3 className={styles.question}>
+              
+            </h3>
             <h3 className={styles.question}>
-              What is your cancellation policy?
+              
             </h3>
             <p className={styles.answer}>
-              If you're unable to attend a session please let me know 48 hours
-              in advance. For clients who cancel within 48 hours, there will be
-              a 50% cancellation fee. For clients canceling within 24 hours or
-              for no-shows, the full session fee will charged to your card on
-              file.
+              
             </p>
-          </li>
+          </li> */}
         </ul>
         <ul className={styles.secondSection}>
-          <li className={styles.qa}>
+          {/* <li className={styles.qa}>
             <h3 className={styles.question}>What is EMDR?</h3>
             <p className={styles.answer}>
               From
@@ -98,10 +128,10 @@ export const FAQ = () => {
               experiencing thoughts of self-harm, experiencing suicidal
               ideation, or undergoing a mental health crisis.
             </p>
-          </li>
+          </li> */}
           <li className={styles.qa}>
             <h3 className={styles.question} id="EMDRIQA">
-              What is the Cost of therapy or EMDRI?
+              What is the Cost of EMDRI?
             </h3>
             <p className={styles.answer}>
               The initial assessment leading up to the EMDR Intensive may be
@@ -112,7 +142,11 @@ export const FAQ = () => {
               FREE Consultation will help determine the end cost.
             </p>
           </li>
+          
         </ul>
+        <h4 className={styles.footerComment}> If you'd like more informaton or you're ready to start healing now: <button className={styles.contactMe} id="contactMeButton">
+              Contact Me
+            </button></h4>
       </section>
     );
 };

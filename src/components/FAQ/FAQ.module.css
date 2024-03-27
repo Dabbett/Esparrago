@@ -40,3 +40,39 @@
 .FAQ a {
     margin-left: 3px;
 }
+
+.subheading {
+    text-decoration: underline;
+    padding: 10px 0 0 10px;
+}
+
+.insuranceList {
+    list-style: square;
+    padding: 0 0 0 20px;
+    margin: 0;
+
+}
+
+.insuranceListItem {
+    list-style: square;
+    padding: 0;
+}
+
+.footerComment{
+    padding: 10px 0;
+}
+.contactMe{
+    align-self: center;
+    background-color: var(--color-secondary);
+    color: white;
+    align-self: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 25px;
+    border-radius: 3px;
+    font-family: var(--font-roboto);
+    cursor: pointer;
+    margin-bottom: 20px;
+    /* box-shadow: 3px 3px 10px 5px var(--color-bg-secondary); */
+}

@@ -50,7 +50,7 @@ export const About = () => {
           </li>
         </ul>
         <img
-          src={getImageUrl("about/headshot.jpg")}
+          src={getImageUrl("about/lean.jpg")}
           className={styles.aboutImage}
           alt="Headshot"
         />

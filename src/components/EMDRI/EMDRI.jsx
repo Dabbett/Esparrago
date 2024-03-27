@@ -10,18 +10,23 @@ export const EMDRI = () => {
         <h2 className={styles.title}> EMDR Intensive Therapy</h2>
 
         <div className={styles.topDiv}>
+          <h4 className={styles.tagline}>"A Faster Approach To Healing"</h4>
           <p>
-            Eye Movement Desensitization and Reprocessing (EMDR) is a
+            {/* Eye Movement Desensitization and Reprocessing (EMDR) is a
             psychotherapy treatment that is designed to alleviate the distress
             associated with traumatic memories. It can be performed in a series
             of regular 1 hour sessions, or as a 3-6 hour Intensive. To decide
-            what is right for you, schedule a Complimentary Phone Consultation.
+            what is right for you, schedule a Complimentary Phone Consultation. */}
           </p>
           <img
             src={getImageUrl("hero/TherapistOffice.jpg")}
             className={styles.therapistOffice}
             alt="therapist office"
           />
+          <div className={styles.info}> 
+          <h3>Research has shown intensive formats of EMDR to be Equally (if not more) effective than weekly sessions in reducing symptoms of PTSD.</h3>
+          <h4 className={styles.asterisk}> ** All EMDR sessions are performed virtually **</h4>
+          </div>
           <div className={styles.process}>
             <h3>EMDR Intensive Process:</h3>
             <ul className={styles.numberedList}>
@@ -32,7 +37,7 @@ export const EMDRI = () => {
                 Pre-Intensive Interview Assessment <br />(1 hour)
               </li>
               <li className={styles.numberedItem}>
-                EMDR Intensive Sessions <br />(3-6 Hours)
+                EMDR Intensive Sessions <br />(Three 3.5 Hour Sessions)
               </li>
               <li className={styles.numberedItem}>
                 Post Intensive Follow Up <br />(1 hour)
@@ -46,6 +51,7 @@ export const EMDRI = () => {
               Book a Complimentary Phone Consultation
             </button>
           </a>
+          
         </div>
         <div className={styles.footer}>
           <p>
