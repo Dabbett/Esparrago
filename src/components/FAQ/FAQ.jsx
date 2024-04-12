@@ -11,8 +11,8 @@ export const FAQ = () => {
             <h3 className={styles.question}>Do you accept insurance?</h3>
             <p className={styles.answer}>
                I am in network with the following insurance companies:
-               (*Please note that coverage varies for
-              <a href="/FAQPage/#EMDRIQA">EMDRI</a>.)
+               {/* (*Please note that coverage varies for
+              <a href="/FAQPage/#EMDRIQA">EMDRI</a>.) */}
             </p>
             <h4 className={styles.subheading}> North Carolina: </h4>
             <p className={styles.answer}>
@@ -134,12 +134,13 @@ export const FAQ = () => {
               What is the Cost of EMDRI?
             </h3>
             <p className={styles.answer}>
-              The initial assessment leading up to the EMDR Intensive may be
+              {/* The initial assessment leading up to the EMDR Intensive may be
               covered by insurance but EMDR intensives are not covered by
               insurances. Since this is considered "private pay" I am not constrained by the
               limits of insurance policies, including session limits. This
               allows me to tailor treatment to meet your needs! Your
-              FREE Consultation will help determine the end cost.
+              FREE Consultation will help determine the end cost. */}
+              Weekly EMDR sessions and initial assessments for intensives may be covered by insurance. EMDR Intensive sessions are not covered by insurances due to the structure of this format. Since these sessions are considered private pay, I am not constrained by the limits of insurance policies which allows me to tailor treatment to meet your needs! Your FREE Consultation will help determine the end cost. 
             </p>
           </li>
           
