@@ -30,16 +30,16 @@ export const Resources = () => {
             <ul className={styles.links}>
               <h3>Suicide Awareness & Hotlines</h3>
               <li className={styles.link}>
-                <a href="https://afsp.org/">
+                <a href="https://afsp.org/im-having-thoughts-of-suicide/">
                   American Foundation for Suicide Prevention{" "}
                 </a>
               </li>
-              <li className={styles.link}>
-                <a href="https://www.metanoia.org/suicide/">
-                  Suicide: Read This First{" "}
+                <li className={styles.link}>
+                <a href="https://www.ncdhhs.gov/divisions/mental-health-developmental-disabilities-and-substance-use-services/hope4nc/hope4nc-helpline#:~:text=The%20Hope4NC%20Helpline%20(1%2D855,in%20North%20Carolina's%20100%20counties.">
+                  The Hope4NC Helpline
                 </a>
+                (1-855-587-3463)
               </li>
-
               <li className={styles.link}>
                 <a href="https://988lifeline.org/">
                   National Suicide Prevention Hotline
@@ -49,7 +49,7 @@ export const Resources = () => {
             </ul>
           </div>
 
-          <div className={styles.category}>
+          {/* <div className={styles.category}>
             <ul className={styles.links}>
               <h3>Depression</h3>
               <li className={styles.link}>
@@ -69,13 +69,13 @@ export const Resources = () => {
                 (1-855-587-3463)
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className={styles.category}>
             <ul className={styles.links}>
               <h3>Maternal Health</h3>
               <li className={styles.link}>
                 <a href="https://www.marchofdimes.org/find-support/topics/postpartum/postpartum-depression">
-                  March of Dimes
+                Postpartum Depression
                 </a>
               </li>
               <li className={styles.link}>
@@ -125,26 +125,26 @@ export const Resources = () => {
               <li className={styles.link}>
                 <a href="https://findtreatment.gov/">Find a Treatment Center</a>
               </li>
-              <li className={styles.link}>
+              {/* <li className={styles.link}>
                 <a href="https://cottonwooddetucson.com/drug-alcohol-self-assessment/">
                   Substance Abuse Self Assessment Tool
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className={styles.category}>
             <ul className={styles.links}>
               <h3>Trauma and PTSD</h3>
-              <li className={styles.link}>
+              {/* <li className={styles.link}>
                 <a href="https://www.psychologytoday.com/us/blog/the-resilient-brain/201903/trauma-and-ptsd-more-common-you-think">
                   PTSD Is More Common Than You Think
                 </a>
-              </li>
+              </li> */}
               <li className={styles.link}>
                 <a href="https://www.ptsd.va.gov/">National Center for PTSD</a>
               </li>
               <li className={styles.link}>
-                <a href="https://www.ncffps.org/get-help/resource-contact-list/emergency-contacts/">
+                <a href="https://ncfrps.org">
                   NC First Responder Crisis Resources
                 </a>
               </li>

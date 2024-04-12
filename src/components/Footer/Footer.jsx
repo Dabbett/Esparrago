@@ -6,11 +6,11 @@ export const Footer = () => {
     return (
       <section className={styles.container}>
         <img
-          src={getImageUrl("about/logo.jpg")}
+          src={getImageUrl("nav/MTSlogo.png")}
           className={styles.logo2}
           alt="EZ logo"
         />
-        <h6>© Copyright Topsail Software</h6>
+        <h6 className={styles.copyright}>© Copyright Topsail Software</h6>
       </section>
     );
 };

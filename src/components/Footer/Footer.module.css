@@ -16,8 +16,14 @@
     height: 100px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .container {
         flex-direction: column;
+    }
+    .logo2{
+        margin-top: 10px;
+    }
+    .copyright{
+        margin-top: 10px;
     }
 }
