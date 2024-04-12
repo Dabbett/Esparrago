@@ -13,16 +13,16 @@
 }
 
 .logo2 {
-    height: 100px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 430px) {
     .container {
         flex-direction: column;
     }
-    .logo2{
-        margin-top: 10px;
-    }
+    
     .copyright{
         margin-top: 10px;
     }
