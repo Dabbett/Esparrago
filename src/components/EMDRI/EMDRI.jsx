@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import styles from "./EMDRI.module.css";
 import { getImageUrl } from "../../utils";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ export const EMDRI = () => {
         <h2 className={styles.title}> EMDR Intensive Therapy</h2>
 
         <div className={styles.topDiv}>
-          <h4 className={styles.tagline}>"A Faster Approach To Healing"</h4>
+          <h4 className={styles.tagline}>&quot;A Faster Approach To Healing&quot;</h4>
           <p>
             {/* Eye Movement Desensitization and Reprocessing (EMDR) is a
             psychotherapy treatment that is designed to alleviate the distress
@@ -55,7 +55,7 @@ export const EMDRI = () => {
         </div>
         <div className={styles.footer}>
           <p>
-            If you're still not ready, or to read more about EMDR and recieve
+            If you&apos;re still not ready, or to read more about EMDR and recieve
             other helpful mental health resources, visit our
             <Link to="/ResourcePage">Resources Page</Link> or our
             <a href="/FAQPage">FAQ Page</a>.
