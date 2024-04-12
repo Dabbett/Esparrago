@@ -93,11 +93,18 @@
     font-family: var(--font-roboto);
 }
 
+.sources {
+    margin:  20px 10% 0 10%;
+    color: rgb(54, 54, 54)
+}
 
 @media screen and (max-width: 400px) {
 .process {
     width: 80vw;
-    
 }
 
+.therapistOffice {
+    width: 80%;
 }
+}
+

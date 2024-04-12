@@ -24,8 +24,8 @@ export const EMDRI = () => {
             alt="therapist office"
           />
           <div className={styles.info}> 
-          <h3>Research has shown intensive formats of EMDR to be Equally (if not more) effective than weekly sessions in reducing symptoms of PTSD.</h3>
-          <h4 className={styles.asterisk}> ** All EMDR sessions are performed virtually **</h4>
+          <h3>Research has shown intensive formats of EMDR to be Equally (if not more) effective than weekly sessions in reducing symptoms of PTSD. This includes sessions that are performed virtually.</h3>
+          {/* <h4 className={styles.asterisk}> ** All EMDR sessions are performed virtually **</h4> */}
           </div>
           <div className={styles.process}>
             <h3>EMDR Intensive Process:</h3>
@@ -60,6 +60,10 @@ export const EMDRI = () => {
             <Link to="/ResourcePage">Resources Page</Link> or our
             <a href="/FAQPage">FAQ Page</a>.
           </p>
+          <hr />
+          <h6 className={styles.sources}>Greenwald, R., Camden, A. A., Gamache, N., Lasser, K. A., Chapman, R., & Rattner, B. (2021). Intensive trauma-focused therapy with victims of crime. European Journal of Trauma & Dissociation, 5(3), Article 100146. https://doi.org/10.1016/j.ejtd.2020.100146</h6>
+          <h6 className={styles.sources}>Ehlers, A., Hackmann, A., Grey, N., Wild, J., Liness, S., Albert, I., Deale, A., Stott, R., & Clark, D. M. (2014). A randomized controlled trial of 7-day intensive and standard weekly cognitive therapy for PTSD and emotion-focused supportive therapy. The American journal of psychiatry, 171(3), 294–304. https://doi.org/10.1176/appi.ajp.2013.13040552</h6>
+          <h6 className={styles.sources}>Liou, H., Lane, C., Huang, C., Mookadam, M., Joseph, M., & Hecker DuVal, J. (2022). Eye movement desensitization and reprocessing in a primary care setting: assessing utility and comparing efficacy of virtual versus in-person methods. Telemedicine and e-Health, 28(9), 1359-1366.</h6>
         </div>
       </section>
     );
