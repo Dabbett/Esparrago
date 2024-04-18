@@ -175,3 +175,9 @@
     }
 
 }
+
+@media screen and (max-width: 435px) {
+    .item{
+        font-size: 19px;
+    }
+}

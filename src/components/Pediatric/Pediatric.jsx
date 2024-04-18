@@ -7,8 +7,8 @@ export const Pediatric = () => {
     <section className={styles.container} id="Child">
       <h1>Pediatric Therapy:</h1>
       <img
-        src={getImageUrl("skills/child.jpg")}
-        className={styles.childImage}
+        src={getImageUrl("about/ChildPlayingWithTrain.jpg")}
+        className={styles.childTherapy}
         alt="child in therapy"
       />
       <p className={styles.pedP}>

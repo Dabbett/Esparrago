@@ -14,6 +14,15 @@
   padding-top: 20px;
 }
 
+.childTherapy{
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 0px;
+    max-height: 300px;
+    overflow: hidden;
+    object-fit:cover;
+}
 
 .pedP {
     font-family: var(--font-roboto);
@@ -55,6 +64,6 @@
         background-color: var(--color-secondary);
     }
     .pedP {
-        font-size: 15px;
+        font-size: 20px;
     }
 }

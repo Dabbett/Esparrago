@@ -11,17 +11,11 @@ export const EMDRI = () => {
 
         <div className={styles.topDiv}>
           <h4 className={styles.tagline}>&quot;A Faster Approach To Healing&quot;</h4>
-          <p>
-            {/* Eye Movement Desensitization and Reprocessing (EMDR) is a
-            psychotherapy treatment that is designed to alleviate the distress
-            associated with traumatic memories. It can be performed in a series
-            of regular 1 hour sessions, or as a 3-6 hour Intensive. To decide
-            what is right for you, schedule a Complimentary Phone Consultation. */}
-          </p>
+
           <img
-            src={getImageUrl("hero/TherapistOffice.jpg")}
-            className={styles.therapistOffice}
-            alt="therapist office"
+            src={getImageUrl("emdr/prairie.jpg")}
+            className={styles.prairie}
+            alt="prairie"
           />
           <div className={styles.info}> 
           <h3>Research has shown intensive formats of EMDR to be Equally (if not more) effective than weekly sessions in reducing symptoms of PTSD. This includes sessions that are performed virtually.</h3>

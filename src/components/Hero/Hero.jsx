@@ -8,9 +8,9 @@ export const Hero = () => {
     return (
       <section className={styles.container}>
         <img
-        src={getImageUrl("about/zenStones.jpg")} 
+        src={getImageUrl("hero/BrickWall.jpg")} 
         className={styles.stones}
-        alt="zenStones"
+        alt="Brick Wall"
       />
       </section>
     );

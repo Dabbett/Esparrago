@@ -30,7 +30,6 @@ export const Specialties = () => {
             <li>Experiential Therapy</li>
             <li>Mindfulness</li>
             <li>Motivational Interviewing</li>
-            <li>Trauma Focused - Cognitive Behavioral Therapy</li>
             <li>Person-Centered</li>
           </ul>
         </div>

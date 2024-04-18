@@ -2,8 +2,7 @@
 
 
 .EMDRIsection {
-    background-image: url("/assets/about/beige-abstract.jpg");
-
+    background-color: white;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -26,14 +25,13 @@
 .topDiv p {
     padding: 10px;
     margin: 10px 10%;
-    background-color: var(--color-bg-secondary);
-
+    background-color: var(--color-bg-teritary);
 }
 
 .tagline {
     font-weight: 500;
 }
-.therapistOffice {
+.prairie {
     width: 50%;
 }
 
@@ -103,7 +101,7 @@
     width: 80vw;
 }
 
-.therapistOffice {
+.prairie {
     width: 80%;
 }
 }

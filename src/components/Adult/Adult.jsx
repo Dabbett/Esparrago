@@ -7,9 +7,9 @@ export const Adult = () => {
     <section className={styles.container} id="Adult">
       <h1>Adult Therapy:</h1>
       <img
-        src={getImageUrl("skills/adult.jpg")}
+        src={getImageUrl("hero/TherapistOffice.jpg")}
         className={styles.adultTherapy}
-        alt="Adult in Therapy"
+        alt="therapist office"
       />
       <p className={styles.adultP}>
         I believe in healing through corrective experiences and prefer to use
