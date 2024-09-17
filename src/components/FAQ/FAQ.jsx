@@ -67,9 +67,9 @@ export const FAQ = () => {
             Are your appointments in-person or virtual?
           </h3>
           <p className={styles.answer}>
-            For intensives: I offer <em>virtual</em> as well as <em>in-person</em> appointments at my office in Porters Neck, NC.
+            For intensives: I offer <em>virtual</em> as well as <em>in-person</em> appointments at my office the Wilmington, NC Area.
             <br />
-            I offer appointments exclusively via telehealth at this time.
+            I offer all other appointments exclusively via telehealth at this time.
             Sessions are conducted using HIPAA compliant software. 
             {/* 
             For Children: I offer appointments exclusively in-person at my
