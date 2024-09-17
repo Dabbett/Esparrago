@@ -67,7 +67,7 @@ export const FAQ = () => {
             Are your appointments in-person or virtual?
           </h3>
           <p className={styles.answer}>
-            For intensives: I offer <em>virtual</em> as well as <em>in-person</em> appointments at my office the Wilmington, NC Area.
+            For intensives: I offer <bold>virtual</bold> as well as <bold>in-person</bold> appointments at my office the Wilmington, NC Area.
             <br />
             I offer all other appointments exclusively via telehealth at this time.
             Sessions are conducted using HIPAA compliant software. 
