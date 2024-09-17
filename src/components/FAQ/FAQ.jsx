@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import styles from "./FAQ.module.css";
 import { getImageUrl } from "../../utils";
@@ -18,11 +19,19 @@ export const FAQ = () => {
           <p className={styles.answer}>
             <ul className={styles.insuranceList}>
               <li className={styles.insuranceListItem}>Aetna</li>
-              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of North Carolina</li>
-              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of NC Medicare Advantage</li>
-              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of Massachusetts</li>
+              <li className={styles.insuranceListItem}>
+                Blue Cross and Blue Shield of North Carolina
+              </li>
+              <li className={styles.insuranceListItem}>
+                Blue Cross and Blue Shield of NC Medicare Advantage
+              </li>
+              <li className={styles.insuranceListItem}>
+                Blue Cross and Blue Shield of Massachusetts
+              </li>
               <li className={styles.insuranceListItem}>Cigna</li>
-              <li className={styles.insuranceListItem}>Horizon Blue Cross Blue Shield of New Jersey</li>
+              <li className={styles.insuranceListItem}>
+                Horizon Blue Cross Blue Shield of New Jersey
+              </li>
               <li className={styles.insuranceListItem}>Optum</li>
               <li className={styles.insuranceListItem}>Oscar Health</li>
               <li className={styles.insuranceListItem}>Oxford</li>
@@ -34,7 +43,9 @@ export const FAQ = () => {
           <p className={styles.answer}>
             <ul className={styles.insuranceList}>
               <li className={styles.insuranceListItem}>Aetna</li>
-              <li className={styles.insuranceListItem}>Anthem BCBS of New York</li>
+              <li className={styles.insuranceListItem}>
+                Anthem BCBS of New York
+              </li>
               <li className={styles.insuranceListItem}>Carelon</li>
               <li className={styles.insuranceListItem}>Cigna</li>
               <li className={styles.insuranceListItem}>Optum</li>
@@ -43,7 +54,6 @@ export const FAQ = () => {
               <li className={styles.insuranceListItem}>UHC</li>
               <li className={styles.insuranceListItem}>UMR</li>
               <li className={styles.insuranceListItem}>United Healthcare</li>
-              
             </ul>
           </p>
           <p className={styles.answer}>
@@ -57,12 +67,14 @@ export const FAQ = () => {
             Are your appointments in-person or virtual?
           </h3>
           <p className={styles.answer}>
-            I offer appointments exclusively via telehealth at this
-            time. Sessions are conducted using HIPAA compliant software.
-            {/* <br />
+            For intensives: I offer <em>virtual</em> as well as <em>in-person</em> appointments at my office in Porters Neck, NC.
+            <br />
+            I offer appointments exclusively via telehealth at this time.
+            Sessions are conducted using HIPAA compliant software. 
+            {/* 
             For Children: I offer appointments exclusively in-person at my
             Wilmington, NC. office at this time. */}
-          </p> 
+          </p>
         </li>
         {/* <li className={styles.qa}>
           <h3 className={styles.question}>
