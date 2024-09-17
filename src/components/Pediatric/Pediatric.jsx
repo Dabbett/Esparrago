@@ -21,7 +21,7 @@ export const Pediatric = () => {
         <br />
         Offering In-person Appointments for children only - Wilmington, NC.
       </p>
-      <a href="https://parentlikeitmatters.clientsecure.me/">
+      <a href="https://heidi-esparrago.clientsecure.me/">
         <button className={styles.bookNow} id="childButton">
           Book Now
         </button>

@@ -57,12 +57,12 @@ export const FAQ = () => {
             Are your appointments in-person or virtual?
           </h3>
           <p className={styles.answer}>
-            For Adults: I offer appointments exclusively via telehealth at this
+            I offer appointments exclusively via telehealth at this
             time. Sessions are conducted using HIPAA compliant software.
-            <br />
+            {/* <br />
             For Children: I offer appointments exclusively in-person at my
-            Wilmington, NC. office at this time.
-          </p>
+            Wilmington, NC. office at this time. */}
+          </p> 
         </li>
         {/* <li className={styles.qa}>
           <h3 className={styles.question}>
