@@ -39,7 +39,7 @@ export const About = () => {
           <li className={styles.blurb}>
             <p className={styles.item}>
               I strive to create a warm and welcoming environment where clients
-              can feel comfortable sharing their true experiences. I'd love to
+              can feel comfortable sharing their true experiences. I&apos;d love to
               learn about what you are going through and how I can help.
             </p>
             <img

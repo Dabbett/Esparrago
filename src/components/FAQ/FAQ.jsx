@@ -3,64 +3,68 @@ import styles from "./FAQ.module.css";
 import { getImageUrl } from "../../utils";
 
 export const FAQ = () => {
-    return (
-      <section className={styles.FAQ}>
-        <h1>Frequently Asked Questions</h1>
-        <ul className={styles.firstSection}>
-          <li className={styles.qa}>
-            <h3 className={styles.question}>Do you accept insurance?</h3>
-            <p className={styles.answer}>
-               I am in network with the following insurance companies:
-               {/* (*Please note that coverage varies for
+  return (
+    <section className={styles.FAQ}>
+      <h1>Frequently Asked Questions</h1>
+      <ul className={styles.firstSection}>
+        <li className={styles.qa}>
+          <h3 className={styles.question}>Do you accept insurance?</h3>
+          <p className={styles.answer}>
+            I am in network with the following insurance companies:
+            {/* (*Please note that coverage varies for
               <a href="/FAQPage/#EMDRIQA">EMDRI</a>.) */}
-            </p>
-            <h4 className={styles.subheading}> North Carolina: </h4>
-            <p className={styles.answer}>
-              <ul className={styles.insuranceList}>
-                <li className={styles.insuranceListItem}>Aetna</li>
-                <li className={styles.insuranceListItem}>Blue Cross and Blue Shield
-              of North Carolina</li>
-                <li className={styles.insuranceListItem}>Blue Cross Blue Shield of Massachusetts</li>
-                <li className={styles.insuranceListItem}>Cigna</li>
-                <li className={styles.insuranceListItem}>Horizon Blue Cross Blue Shield of New Jersey</li>
-                <li className={styles.insuranceListItem}>Optum</li>
-                <li className={styles.insuranceListItem}>Oscar Health</li>
-                <li className={styles.insuranceListItem}>Oxford</li>
-                <li className={styles.insuranceListItem}>United Healthcare</li>
-              </ul>
-               
-            </p>
-            <h4 className={styles.subheading}> New York: </h4>
-            <p className={styles.answer}>
+          </p>
+          <h4 className={styles.subheading}> North Carolina: </h4>
+          <p className={styles.answer}>
             <ul className={styles.insuranceList}>
-                <li className={styles.insuranceListItem}>Aetna</li>
-                <li className={styles.insuranceListItem}>Cigna</li>
-                <li className={styles.insuranceListItem}>Optum</li>
-                <li className={styles.insuranceListItem}>UHC</li>
-                <li className={styles.insuranceListItem}>UMR</li>
-                <li className={styles.insuranceListItem}>(Coming Soon) BCBS of Massachusetts</li>
-                <li className={styles.insuranceListItem}>(Coming Soon) Empire BCBS</li>
-              </ul>
-            </p>
-            <p className={styles.answer}>
-              <br></br>
-             **I also accept self pay and can provide a superbill for Out of Network reimbursement.**
+              <li className={styles.insuranceListItem}>Aetna</li>
+              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of North Carolina</li>
+              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of NC Medicare Advantage</li>
+              <li className={styles.insuranceListItem}>Blue Cross and Blue Shield of Massachusetts</li>
+              <li className={styles.insuranceListItem}>Cigna</li>
+              <li className={styles.insuranceListItem}>Horizon Blue Cross Blue Shield of New Jersey</li>
+              <li className={styles.insuranceListItem}>Optum</li>
+              <li className={styles.insuranceListItem}>Oscar Health</li>
+              <li className={styles.insuranceListItem}>Oxford</li>
+              <li className={styles.insuranceListItem}>Tricare</li>
+              <li className={styles.insuranceListItem}>United Healthcare</li>
+            </ul>
+          </p>
+          <h4 className={styles.subheading}> New York: </h4>
+          <p className={styles.answer}>
+            <ul className={styles.insuranceList}>
+              <li className={styles.insuranceListItem}>Aetna</li>
+              <li className={styles.insuranceListItem}>Anthem BCBS of New York</li>
+              <li className={styles.insuranceListItem}>Carelon</li>
+              <li className={styles.insuranceListItem}>Cigna</li>
+              <li className={styles.insuranceListItem}>Optum</li>
+              <li className={styles.insuranceListItem}>Oscar Health</li>
+              <li className={styles.insuranceListItem}>Oxford</li>
+              <li className={styles.insuranceListItem}>UHC</li>
+              <li className={styles.insuranceListItem}>UMR</li>
+              <li className={styles.insuranceListItem}>United Healthcare</li>
               
-            </p>
-          </li>
-          <li className={styles.qa}>
-            <h3 className={styles.question}>
-              Are your appointments in-person or virtual?
-            </h3>
-            <p className={styles.answer}>
-              For Adults: I offer appointments exclusively via telehealth at
-              this time. Sessions are conducted using HIPAA compliant software.
-              <br />
-              For Children: I offer appointments exclusively in-person at my
-              Wilmington, NC. office at this time.
-            </p>
-          </li>
-          {/* <li className={styles.qa}>
+            </ul>
+          </p>
+          <p className={styles.answer}>
+            <br></br>
+            **I also accept self pay and can provide a superbill for Out of
+            Network reimbursement.**
+          </p>
+        </li>
+        <li className={styles.qa}>
+          <h3 className={styles.question}>
+            Are your appointments in-person or virtual?
+          </h3>
+          <p className={styles.answer}>
+            For Adults: I offer appointments exclusively via telehealth at this
+            time. Sessions are conducted using HIPAA compliant software.
+            <br />
+            For Children: I offer appointments exclusively in-person at my
+            Wilmington, NC. office at this time.
+          </p>
+        </li>
+        {/* <li className={styles.qa}>
           <h3 className={styles.question}>
               
             </h3>
@@ -71,9 +75,9 @@ export const FAQ = () => {
               
             </p>
           </li> */}
-        </ul>
-        <ul className={styles.secondSection}>
-          {/* <li className={styles.qa}>
+      </ul>
+      <ul className={styles.secondSection}>
+        {/* <li className={styles.qa}>
             <h3 className={styles.question}>What is EMDR?</h3>
             <p className={styles.answer}>
               From
@@ -129,27 +133,35 @@ export const FAQ = () => {
               ideation, or undergoing a mental health crisis.
             </p>
           </li> */}
-          <li className={styles.qa}>
-            <h3 className={styles.question} id="EMDRIQA">
-              What is the Cost of EMDRI?
-            </h3>
-            <p className={styles.answer}>
-              {/* The initial assessment leading up to the EMDR Intensive may be
+        <li className={styles.qa}>
+          <h3 className={styles.question} id="EMDRIQA">
+            What is the Cost of EMDRI?
+          </h3>
+          <p className={styles.answer}>
+            {/* The initial assessment leading up to the EMDR Intensive may be
               covered by insurance but EMDR intensives are not covered by
               insurances. Since this is considered "private pay" I am not constrained by the
               limits of insurance policies, including session limits. This
               allows me to tailor treatment to meet your needs! Your
               FREE Consultation will help determine the end cost. */}
-              Weekly EMDR sessions and initial assessments for intensives may be covered by insurance. EMDR Intensive sessions are not covered by insurances due to the structure of this format. Since these sessions are considered private pay, I am not constrained by the limits of insurance policies which allows me to tailor treatment to meet your needs! Your FREE Consultation will help determine the end cost. 
-            </p>
-          </li>
-          
-        </ul>
-        <h4 className={styles.footerComment}> If you'd like more informaton or you're ready to start healing now: <a href="/ContactPage">
-            <button className={styles.contactMe} id="contactMeButton">
-              Contact Me
-            </button>
-          </a></h4>
-      </section>
-    );
+            Weekly EMDR sessions and initial assessments for intensives may be
+            covered by insurance. EMDR Intensive sessions are not covered by
+            insurances due to the structure of this format. Since these sessions
+            are considered private pay, I am not constrained by the limits of
+            insurance policies which allows me to tailor treatment to meet your
+            needs! Your FREE Consultation will help determine the end cost.
+          </p>
+        </li>
+      </ul>
+      <h4 className={styles.footerComment}>
+        {" "}
+        If you`d like more informaton or you`re ready to start healing now:{" "}
+        <a href="/ContactPage">
+          <button className={styles.contactMe} id="contactMeButton">
+            Contact Me
+          </button>
+        </a>
+      </h4>
+    </section>
+  );
 };
